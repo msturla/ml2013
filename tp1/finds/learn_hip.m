@@ -1,6 +1,7 @@
 function [ s, tot ] = learn_hip( T, arch )
-%UNTITLED6 Summary of this function goes here
-%   Detailed explanation goes here
+% learns the hipothesis T with the architecture arch
+% arch is a vector containing the cardinal of the attributes
+% returns s(positive examples used) and tot (total examples used)
 tot = 0;
 s = 0;
 [~, k] = size(T);

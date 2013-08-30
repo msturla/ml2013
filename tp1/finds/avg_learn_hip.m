@@ -1,6 +1,7 @@
 function [ as, at ] = avg_learn_hip( tries, T, arch )
-%UNTITLED7 Summary of this function goes here
-%   Detailed explanation goes here
+%learns a hipothesis T with the architecture
+%learns it a total of tries times
+% returns as (average positive examples) and at (average total examples)
 as = 0;
 at = 0;
 for k = 1:tries,
